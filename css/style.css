@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto ');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;  
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+p{
+  margin: 0.75rem 0rem;
+}
+.text-primary{
+  color: #93cb52; 
+}
+.navbar{
+  position: sticky;
+  top: 0;
+  display: flex;
+  background-color: #333;
+  color: white;
+  justify-content: space-between;
+  padding: 1rem;
+  z-index: 1;
+}
+.navbar ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.navbar li a{
+  color: #fff;
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+}
+.navbar li a:hover{
+  background-color: #93cb52;
+  border-radius: 5px;
+}
+.showcase{
+  background: url('../img/showcase.jpg') no-repeat center center/cover;
+  color: white;
+  height: 100vh;
+}
+.showcase-content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+}
+.l-heading{
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+.showcase-content p{
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+.btn{
+  color: white;
+  background-color: #93cb52;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 17px;
+}
+.btn:hover{
+  background-color: #7ab436;
+}
+.btn-dark{
+  background-color: #333;
+  color: white;
+}
+.btn-dark:hover{
+  background-color: #444;
+}
+.m-heading{
+  line-height: 1.1;
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+#what{
+  text-align: center;
+  padding: 2rem 0;
+}
+.items{
+  display: flex;
+  text-align: center;
+  padding-top: 20px;
+}
+.item{
+  flex: 1;
+  padding: 0px 35px;
+}
+#what i{
+  background-color: #93cb52;
+  padding: 1rem;
+  margin-bottom: 1.1rem;
+  border-radius: 50%;
+}
+#who{
+  display: flex;
+}
+#who div{
+  flex: 1;
+}
+#who .who-img{
+  background: url("../img/people.jpg") no-repeat center center/cover;
+}
+.who-text{
+  background-color: #333;
+  color: #fff;
+  padding: 1.75rem;
+}
+.who-text ul{
+  margin: 0.6rem 0;
+}
+.who-text li{
+  list-style: none;
+  padding: 0.5rem 0;
+  border-bottom: #444 dotted 1px;
+}
+#clients{
+  padding: 1.5rem 0;  
+}
+#clients img{
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+#contact{
+  display: flex;
+}
+.contact-form{
+  background-color: #93cb52;
+  color: white;
+  flex: 1;
+  padding: 2rem;
+}
+#contact iframe{
+  display: block;
+  margin: auto;
+  height: 500px;
+  flex: 1;
+}
+#contact .form-group{
+  margin: 0.75rem;
+}
+.form-group label{
+  display: block;
+}
+form input,
+.form-group textarea{
+  width: 100%;
+  padding: 0.5rem;
+}
+#footer{
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  background-color: #333;
+}
